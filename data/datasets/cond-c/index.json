@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 4,
+  "datasetId": "cond-c",
+  "datasetName": "数据集 C",
+  "generatedAt": "2026-11-15T15:31:50.357494+08:00",
+  "source": "C:\\Users\\Admin\\Desktop\\collaborative_cond_c_events.csv",
+  "defaultGroup": "1511",
+  "totals": {
+    "code": 2159,
+    "notes": 202,
+    "cursor": 1024,
+    "actions": 815,
+    "chat": 210,
+    "status": 86,
+    "completion": 10,
+    "aiQuestions": 55,
+    "aiReplies": 50,
+    "sharedAI": 0,
+    "privateAI": 105,
+    "privateForward": 5,
+    "roomChat": 100,
+    "noteImages": 54
+  },
+  "assetCount": 12,
+  "groups": [
+    {
+      "id": "07151",
+      "name": "07151",
+      "file": "data/datasets/cond-c/groups/group-858c01245ab0.json",
+      "members": [
+        {
+          "id": "07151member1",
+          "name": "07151member1",
+          "username": "赵元硕",
+          "userId": "赵元硕",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "07151member2",
+          "name": "07151member2",
+          "username": "章哲文",
+          "userId": "章哲文",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "07151member3",
+          "name": "07151member3",
+          "username": "朱可欣",
+          "userId": "朱可欣",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 441,
+        "notes": 78,
+        "cursor": 159,
+        "actions": 112,
+        "chat": 27,
+        "status": 8,
+        "completion": 1,
+        "aiQuestions": 7,
+        "aiReplies": 7,
+        "sharedAI": 0,
+        "privateAI": 14,
+        "privateForward": 0,
+        "roomChat": 13,
+        "noteImages": 0
+      },
+      "start": 1784073849918,
+      "end": 1784075523451,
+      "score": 1699,
+      "channels": [
+        "room",
+        "private"
+      ]
+    },
+    {
+      "id": "071516",
+      "name": "071516",
+      "file": "data/datasets/cond-c/groups/group-a37a23a6be23.json",
+      "members": [
+        {
+          "id": "071516member1",
+          "name": "071516member1",
+          "username": "ZhuHangyi",
+          "userId": "ZhuHangyi",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "071516member2",
+          "name": "071516member2",
+          "username": "周哲渝",
+          "userId": "周哲渝",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "071516member3",
+          "name": "071516member3",
+          "username": "李锦哲",
+          "userId": "李锦哲",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 497,
+        "notes": 1,
+        "cursor": 284,
+        "actions": 64,
+        "chat": 11,
+        "status": 6,
+        "completion": 1,
+        "aiQuestions": 1,
+        "aiReplies": 1,
+        "sharedAI": 0,
+        "privateAI": 2,
+        "privateForward": 0,
+        "roomChat": 9,
+        "noteImages": 0
+      },
+      "start": 1784074450191,
+      "end": 1784077207741,
+      "score": 1601,
+      "channels": [
+        "room",
+        "private"
+      ]
+    },
+    {
+      "id": "07156",
+      "name": "07156",
+      "file": "data/datasets/cond-c/groups/group-a4ab6533cdb7.json",
+      "members": [
+        {
+          "id": "07156member1",
+          "name": "07156member1",
+          "username": "张歌斐",
+          "userId": "张歌斐",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "07156member2",
+          "name": "07156member2",
+          "username": "曹建豪",
+          "userId": "曹建豪",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "07156member3",
+          "name": "07156member3",
+          "username": "刘舒菡",
+          "userId": "刘舒菡",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 190,
+        "notes": 63,
+        "cursor": 76,
+        "actions": 97,
+        "chat": 34,
+        "status": 12,
+        "completion": 1,
+        "aiQuestions": 5,
+        "aiReplies": 5,
+        "sharedAI": 0,
+        "privateAI": 10,
+        "privateForward": 0,
+        "roomChat": 24,
+        "noteImages": 0
+      },
+      "start": 1784072802646,
+      "end": 1784073891356,
+      "score": 929,
+      "channels": [
+        "room",
+        "private"
+      ]
+    },
+    {
+      "id": "1511",
+      "name": "1511",
+      "file": "data/datasets/cond-c/groups/group-810bd2adca81.json",
+      "members": [
+        {
+          "id": "1511member1",
+          "name": "1511member1",
+          "username": "薛荔丹",
+          "userId": "薛荔丹",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "1511member2",
+          "name": "1511member2",
+          "username": "曹津恺",
+          "userId": "曹津恺",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "1511member3",
+          "name": "1511member3",
+          "username": "马行天",
+          "userId": "马行天",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 803,
+        "notes": 0,
+        "cursor": 271,
+        "actions": 125,
+        "chat": 14,
+        "status": 6,
+        "completion": 1,
+        "aiQuestions": 7,
+        "aiReplies": 7,
+        "sharedAI": 0,
+        "privateAI": 14,
+        "privateForward": 0,
+        "roomChat": 0,
+        "noteImages": 0
+      },
+      "start": 1784070953748,
+      "end": 1784073307425,
+      "score": 2590,
+      "channels": [
+        "private"
+      ]
+    },
+    {
+      "id": "202607",
+      "name": "202607",
+      "file": "data/datasets/cond-c/groups/group-9da052b4b4e0.json",
+      "members": [
+        {
+          "id": "202607member1",
+          "name": "202607member1",
+          "username": "07071",
+          "userId": "07071",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "202607member2",
+          "name": "202607member2",
+          "username": "07072",
+          "userId": "07072",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "202607member3",
+          "name": "202607member3",
+          "username": "07073",
+          "userId": "07073",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 0,
+        "notes": 0,
+        "cursor": 2,
+        "actions": 17,
+        "chat": 4,
+        "status": 6,
+        "completion": 0,
+        "aiQuestions": 0,
+        "aiReplies": 0,
+        "sharedAI": 0,
+        "privateAI": 0,
+        "privateForward": 0,
+        "roomChat": 4,
+        "noteImages": 0
+      },
+      "start": 1783869894490,
+      "end": 1783877950240,
+      "score": 33,
+      "channels": [
+        "room"
+      ]
+    },
+    {
+      "id": "zgf3",
+      "name": "zgf3",
+      "file": "data/datasets/cond-c/groups/group-afcc148dc746.json",
+      "members": [
+        {
+          "id": "zgf3member1",
+          "name": "zgf3member1",
+          "username": "zgf32",
+          "userId": "zgf32",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "zgf3member2",
+          "name": "zgf3member2",
+          "username": "zgf33",
+          "userId": "zgf33",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "zgf3member3",
+          "name": "zgf3member3",
+          "username": "zgf31",
+          "userId": "zgf31",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 1,
+        "notes": 0,
+        "cursor": 4,
+        "actions": 4,
+        "chat": 0,
+        "status": 6,
+        "completion": 1,
+        "aiQuestions": 0,
+        "aiReplies": 0,
+        "sharedAI": 0,
+        "privateAI": 0,
+        "privateForward": 0,
+        "roomChat": 0,
+        "noteImages": 0
+      },
+      "start": 1784058243784,
+      "end": 1784058520136,
+      "score": 7,
+      "channels": []
+    },
+    {
+      "id": "zgf33",
+      "name": "zgf33",
+      "file": "data/datasets/cond-c/groups/group-99605790c97f.json",
+      "members": [
+        {
+          "id": "zgf33member1",
+          "name": "zgf33member1",
+          "username": "zgf332",
+          "userId": "zgf332",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "zgf33member2",
+          "name": "zgf33member2",
+          "username": "zgf331",
+          "userId": "zgf331",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "zgf33member3",
+          "name": "zgf33member3",
+          "username": "zgf333",
+          "userId": "zgf333",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 2,
+        "notes": 0,
+        "cursor": 7,
+        "actions": 8,
+        "chat": 2,
+        "status": 6,
+        "completion": 1,
+        "aiQuestions": 1,
+        "aiReplies": 1,
+        "sharedAI": 0,
+        "privateAI": 2,
+        "privateForward": 0,
+        "roomChat": 0,
+        "noteImages": 0
+      },
+      "start": 1784063202783,
+      "end": 1784063333811,
+      "score": 22,
+      "channels": [
+        "private"
+      ]
+    },
+    {
+      "id": "zgf4",
+      "name": "zgf4",
+      "file": "data/datasets/cond-c/groups/group-9834485bc617.json",
+      "members": [
+        {
+          "id": "zgf4member1",
+          "name": "zgf4member1",
+          "username": "zgf42",
+          "userId": "zgf42",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "zgf4member2",
+          "name": "zgf4member2",
+          "username": "zgf41",
+          "userId": "zgf41",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "zgf4member3",
+          "name": "zgf4member3",
+          "username": "zgf43",
+          "userId": "zgf43",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 0,
+        "notes": 0,
+        "cursor": 8,
+        "actions": 8,
+        "chat": 0,
+        "status": 6,
+        "completion": 0,
+        "aiQuestions": 0,
+        "aiReplies": 0,
+        "sharedAI": 0,
+        "privateAI": 0,
+        "privateForward": 0,
+        "roomChat": 0,
+        "noteImages": 0
+      },
+      "start": 1784149894978,
+      "end": 1784150180558,
+      "score": 8,
+      "channels": []
+    },
+    {
+      "id": "我很棒3",
+      "name": "我很棒3",
+      "file": "data/datasets/cond-c/groups/group-b29a667274cc.json",
+      "members": [
+        {
+          "id": "我很棒3member1",
+          "name": "我很棒3member1",
+          "username": "machenye",
+          "userId": "machenye",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "我很棒3member2",
+          "name": "我很棒3member2",
+          "username": "褚劲辉",
+          "userId": "褚劲辉",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "我很棒3member3",
+          "name": "我很棒3member3",
+          "username": "周林鈅",
+          "userId": "周林鈅",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 3,
+        "notes": 1,
+        "cursor": 35,
+        "actions": 61,
+        "chat": 24,
+        "status": 8,
+        "completion": 1,
+        "aiQuestions": 6,
+        "aiReplies": 6,
+        "sharedAI": 0,
+        "privateAI": 12,
+        "privateForward": 1,
+        "roomChat": 11,
+        "noteImages": 0
+      },
+      "start": 1784152932952,
+      "end": 1784153541103,
+      "score": 168,
+      "channels": [
+        "room",
+        "private",
+        "forwarded"
+      ]
+    },
+    {
+      "id": "我最棒",
+      "name": "我最棒",
+      "file": "data/datasets/cond-c/groups/group-2390de51e24e.json",
+      "members": [
+        {
+          "id": "我最棒member1",
+          "name": "我最棒member1",
+          "username": "hwk",
+          "userId": "hwk",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "我最棒member2",
+          "name": "我最棒member2",
+          "username": "潘英奇",
+          "userId": "潘英奇",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "我最棒member3",
+          "name": "我最棒member3",
+          "username": "许诺",
+          "userId": "许诺",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 79,
+        "notes": 10,
+        "cursor": 76,
+        "actions": 91,
+        "chat": 32,
+        "status": 10,
+        "completion": 2,
+        "aiQuestions": 15,
+        "aiReplies": 15,
+        "sharedAI": 0,
+        "privateAI": 30,
+        "privateForward": 1,
+        "roomChat": 1,
+        "noteImages": 10
+      },
+      "start": 1784153648416,
+      "end": 1784154950678,
+      "score": 476,
+      "channels": [
+        "room",
+        "private",
+        "forwarded"
+      ]
+    },
+    {
+      "id": "棒棒棒",
+      "name": "棒棒棒",
+      "file": "data/datasets/cond-c/groups/group-5bd5045ffebb.json",
+      "members": [
+        {
+          "id": "棒棒棒member1",
+          "name": "棒棒棒member1",
+          "username": "杨楷骏",
+          "userId": "杨楷骏",
+          "color": "#b7d7ff"
+        },
+        {
+          "id": "棒棒棒member2",
+          "name": "棒棒棒member2",
+          "username": "郑振涛",
+          "userId": "郑振涛",
+          "color": "#aee9c1"
+        },
+        {
+          "id": "棒棒棒member3",
+          "name": "棒棒棒member3",
+          "username": "蓝骏昊",
+          "userId": "蓝骏昊",
+          "color": "#f4d77a"
+        }
+      ],
+      "counts": {
+        "code": 143,
+        "notes": 49,
+        "cursor": 102,
+        "actions": 228,
+        "chat": 62,
+        "status": 12,
+        "completion": 1,
+        "aiQuestions": 13,
+        "aiReplies": 8,
+        "sharedAI": 0,
+        "privateAI": 21,
+        "privateForward": 3,
+        "roomChat": 38,
+        "noteImages": 44
+      },
+      "start": 1784149554956,
+      "end": 1784155462067,
+      "score": 1003,
+      "channels": [
+        "room",
+        "private",
+        "forwarded"
+      ]
+    }
+  ]
+}

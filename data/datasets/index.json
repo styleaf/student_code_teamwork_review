@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-15T15:31:48.953170+08:00",
+  "defaultDataset": "cond-a",
+  "datasets": [
+    {
+      "id": "legacy",
+      "name": "旧数据集",
+      "description": "prodai_local_20260924，保留原有回放与完整事后自动分析。",
+      "index": "data/index.json",
+      "analysisIndex": "data/analysis/index.json",
+      "groups": 11,
+      "hidden": false
+    },
+    {
+      "id": "cond-a",
+      "name": "数据集 A",
+      "description": "11 个可回放小组；按原始日志独立展示，不预设实验关系。",
+      "index": "data/datasets/cond-a/index.json",
+      "analysisIndex": "data/datasets/cond-a/analysis/index.json",
+      "groups": 11,
+      "totals": {
+        "code": 1783,
+        "notes": 477,
+        "cursor": 785,
+        "actions": 723,
+        "chat": 142,
+        "status": 84,
+        "completion": 9,
+        "aiQuestions": 1,
+        "aiReplies": 1,
+        "sharedAI": 2,
+        "privateAI": 0,
+        "privateForward": 0,
+        "roomChat": 140,
+        "noteImages": 106
+      }
+    },
+    {
+      "id": "cond-b",
+      "name": "数据集 B",
+      "description": "15 个可回放小组；按原始日志独立展示，不预设实验关系。",
+      "index": "data/datasets/cond-b/index.json",
+      "analysisIndex": "data/datasets/cond-b/analysis/index.json",
+      "groups": 15,
+      "totals": {
+        "code": 2454,
+        "notes": 536,
+        "cursor": 1198,
+        "actions": 865,
+        "chat": 188,
+        "status": 138,
+        "completion": 12,
+        "aiQuestions": 39,
+        "aiReplies": 35,
+        "sharedAI": 74,
+        "privateAI": 0,
+        "privateForward": 0,
+        "roomChat": 114,
+        "noteImages": 55
+      }
+    },
+    {
+      "id": "cond-c",
+      "name": "数据集 C",
+      "description": "11 个可回放小组；按原始日志独立展示，不预设实验关系。",
+      "index": "data/datasets/cond-c/index.json",
+      "analysisIndex": "data/datasets/cond-c/analysis/index.json",
+      "groups": 11,
+      "totals": {
+        "code": 2159,
+        "notes": 202,
+        "cursor": 1024,
+        "actions": 815,
+        "chat": 210,
+        "status": 86,
+        "completion": 10,
+        "aiQuestions": 55,
+        "aiReplies": 50,
+        "sharedAI": 0,
+        "privateAI": 105,
+        "privateForward": 5,
+        "roomChat": 100,
+        "noteImages": 54
+      }
+    },
+    {
+      "id": "cond-d",
+      "name": "数据集 D",
+      "description": "14 个可回放小组；按原始日志独立展示，不预设实验关系。",
+      "index": "data/datasets/cond-d/index.json",
+      "analysisIndex": "data/datasets/cond-d/analysis/index.json",
+      "groups": 14,
+      "totals": {
+        "code": 2207,
+        "notes": 244,
+        "cursor": 1118,
+        "actions": 927,
+        "chat": 241,
+        "status": 139,
+        "completion": 9,
+        "aiQuestions": 85,
+        "aiReplies": 70,
+        "sharedAI": 51,
+        "privateAI": 104,
+        "privateForward": 4,
+        "roomChat": 82,
+        "noteImages": 78
+      }
+    }
+  ]
+}

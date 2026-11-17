@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "datasetId": "cond-c",
+  "datasetName": "数据集 C",
+  "defaultGroup": "1511",
+  "groups": [
+    {
+      "id": "07151",
+      "name": "07151",
+      "file": "data/datasets/cond-c/analysis/analysis-group-858c01245ab0.json",
+      "members": 3,
+      "events": 817,
+      "ai": 7,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "071516",
+      "name": "071516",
+      "file": "data/datasets/cond-c/analysis/analysis-group-a37a23a6be23.json",
+      "members": 3,
+      "events": 857,
+      "ai": 1,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "07156",
+      "name": "07156",
+      "file": "data/datasets/cond-c/analysis/analysis-group-a4ab6533cdb7.json",
+      "members": 3,
+      "events": 460,
+      "ai": 5,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "1511",
+      "name": "1511",
+      "file": "data/datasets/cond-c/analysis/analysis-group-810bd2adca81.json",
+      "members": 3,
+      "events": 1213,
+      "ai": 7,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "202607",
+      "name": "202607",
+      "file": "data/datasets/cond-c/analysis/analysis-group-9da052b4b4e0.json",
+      "members": 3,
+      "events": 23,
+      "ai": 0,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": false
+    },
+    {
+      "id": "zgf3",
+      "name": "zgf3",
+      "file": "data/datasets/cond-c/analysis/analysis-group-afcc148dc746.json",
+      "members": 3,
+      "events": 9,
+      "ai": 0,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "zgf33",
+      "name": "zgf33",
+      "file": "data/datasets/cond-c/analysis/analysis-group-99605790c97f.json",
+      "members": 3,
+      "events": 19,
+      "ai": 1,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "zgf4",
+      "name": "zgf4",
+      "file": "data/datasets/cond-c/analysis/analysis-group-9834485bc617.json",
+      "members": 3,
+      "events": 16,
+      "ai": 0,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": false
+    },
+    {
+      "id": "我很棒3",
+      "name": "我很棒3",
+      "file": "data/datasets/cond-c/analysis/analysis-group-b29a667274cc.json",
+      "members": 3,
+      "events": 124,
+      "ai": 6,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "我最棒",
+      "name": "我最棒",
+      "file": "data/datasets/cond-c/analysis/analysis-group-2390de51e24e.json",
+      "members": 3,
+      "events": 288,
+      "ai": 15,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    },
+    {
+      "id": "棒棒棒",
+      "name": "棒棒棒",
+      "file": "data/datasets/cond-c/analysis/analysis-group-5bd5045ffebb.json",
+      "members": 3,
+      "events": 584,
+      "ai": 13,
+      "noteInsights": 0,
+      "anomalies": 0,
+      "icap": {},
+      "completed": true
+    }
+  ]
+}
