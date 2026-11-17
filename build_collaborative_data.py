@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import hashlib
 import json
@@ -24,14 +25,14 @@ from build_data import (
 
 
 ROOT = Path(__file__).resolve().parent
-DESKTOP = ROOT.parent
+DEFAULT_SOURCE_DIR = ROOT / "raw_data"
 OUTPUT = ROOT / "data" / "datasets"
 ASSETS = ROOT / "data" / "assets"
 DATASETS = [
-    ("cond-a", "数据集 A", DESKTOP / "collaborative_cond_a_events.csv"),
-    ("cond-b", "数据集 B", DESKTOP / "collaborative_cond_b_events.csv"),
-    ("cond-c", "数据集 C", DESKTOP / "collaborative_cond_c_events.csv"),
-    ("cond-d", "数据集 D", DESKTOP / "collaborative_cond_d_events.csv"),
+    ("cond-a", "数据集 A", "collaborative_cond_a_events.csv"),
+    ("cond-b", "数据集 B", "collaborative_cond_b_events.csv"),
+    ("cond-c", "数据集 C", "collaborative_cond_c_events.csv"),
+    ("cond-d", "数据集 D", "collaborative_cond_d_events.csv"),
 ]
 
 
@@ -459,6 +460,14 @@ def build_dataset(dataset_id: str, dataset_name: str, source: Path, asset_cache:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--source-dir",
+        type=Path,
+        default=DEFAULT_SOURCE_DIR,
+        help="directory containing collaborative_cond_a/b/c/d_events.csv",
+    )
+    args = parser.parse_args()
     csv.field_size_limit(2_147_483_647)
     OUTPUT.mkdir(parents=True, exist_ok=True)
     ASSETS.mkdir(parents=True, exist_ok=True)
@@ -479,7 +488,8 @@ def main() -> None:
             }
         ],
     }
-    for dataset_id, dataset_name, source in DATASETS:
+    for dataset_id, dataset_name, filename in DATASETS:
+        source = args.source_dir / filename
         summary = build_dataset(dataset_id, dataset_name, source, asset_cache)
         catalog["datasets"].append(summary)
         print(f"Built {dataset_name}: {summary['groups']} groups")

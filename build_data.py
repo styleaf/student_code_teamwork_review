@@ -19,7 +19,7 @@ from pathlib import Path
 
 LOCAL_TZ = timezone(timedelta(hours=8))
 ROOT = Path(__file__).resolve().parent
-DEFAULT_SOURCE = ROOT.parent / "prodai_local_20260924"
+DEFAULT_SOURCE = ROOT / "raw_data" / "prodai_local_20260924"
 DEFAULT_OUTPUT = ROOT / "data"
 MEMBER_COLORS = ["#b7d7ff", "#aee9c1", "#f4d77a", "#d7c6f4"]
 DATA_IMAGE_RE = re.compile(

@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import threading
+import webbrowser
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -29,22 +31,33 @@ class ReplayHandler(SimpleHTTPRequestHandler):
         print(f"[{self.log_date_time_string()}] {fmt % args}")
 
 
-def main() -> None:
+def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--open", action="store_true", help="open the replay page in the default browser")
     args = parser.parse_args()
 
     handler = partial(ReplayHandler, directory=str(ROOT))
-    server = ThreadingHTTPServer((args.host, args.port), handler)
-    print(f"Student replay is running at http://{args.host}:{args.port}")
+    try:
+        server = ThreadingHTTPServer((args.host, args.port), handler)
+    except OSError as error:
+        print(f"Unable to start the replay server on {args.host}:{args.port}: {error}")
+        print("If another copy is already running, open http://127.0.0.1:8765/ or stop that copy first.")
+        return 1
+
+    url = f"http://{args.host}:{args.port}/"
+    print(f"Student replay is running at {url}")
+    if args.open:
+        threading.Timer(0.4, webbrowser.open, args=(url,)).start()
     try:
         server.serve_forever()
     except KeyboardInterrupt:
         pass
     finally:
         server.server_close()
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
